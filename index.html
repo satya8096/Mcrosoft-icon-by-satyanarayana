@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Icon</title>
+
+    <link rel="shortcut icon" href="./microsoft.png" type="image/x-icon">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .boxs{
+            height:160px;
+            width: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .boxs .box{
+            width: 80px;
+            height: 80px;
+            margin: 4px;
+        }
+        .name h2{
+            font-size: 80px;
+            margin-left: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .box1{
+            background-color: red;
+        }
+        .box2{
+            background-color: green;
+        }
+        .box3{
+            background-color: blue;
+        }
+        .box4{
+            background-color: rgb(255, 234, 0);
+        }
+
+        @media (max-width:500px) {
+            .name h2{
+                font-size: 30px;
+            }
+            .boxs{
+                height:87px;
+                width: 120px;
+            }
+            .boxs .box{
+                width: 40px;
+                height: 40px;
+                margin: 2px;
+            }
+            .name h2{
+                margin-left: 10px;
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="boxs">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+            <div class="box box4"></div>
+        </div>
+        <div class="name">
+            <h2>Microsoft</h2>
+        </div>
+    </div>
+</body>
+</html>
